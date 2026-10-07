@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>iPhone Center - Pedidos</title>
+</head>
+<body bgcolor="#F4EEF8">
+
+    <h1><strong><center><font color="#6C3483">iPhone</font> <font color="#A569BD">Store</font></center></strong></h1>
+
+    <p align="center">
+        <a href="index.html"><font color="#512E5F"><b>INICIO</b></font></a> |
+        <a href="modelos.html"><font color="#512E5F"><b>MODELOS</b></font></a> |
+        <a href="contacto.html"><font color="#512E5F"><b>COMPRAR / CONTACTO</b></font></a>
+    </p>
+
+    <h3><font color="#7D3C98" size="5">FORMULARIO DE COMPRA Y PEDIDO</font></h3>
+    
+    <form action="#" method="post">
+        <p>
+            <label for="nombre"><font color="#4A235A">Nombre completo:</font></label><br>
+            <input type="text" id="nombre" name="nombre" required>
+        </p>
+
+        <p>
+            <label for="correo"><font color="#4A235A">Correo electrónico:</font></label><br>
+            <input type="email" id="correo" name="correo" required>
+        </p>
+
+        <p>
+            <label for="modelo"><font color="#4A235A">Selecciona el modelo de iPhone:</font></label><br>
+            <select id="modelo" name="modelo">
+                <option value="iphone15pro">iPhone 15 Pro</option>
+                <option value="iphone15">iPhone 15</option>
+                <option value="iphonese">iPhone SE</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="tarjeta"><font color="#4A235A">Número de Tarjeta de Crédito/Débito:</font></label><br>
+            <input type="text" id="tarjeta" name="tarjeta" maxlength="16" placeholder="1234 5678 9012 3456" required>
+        </p>
+
+        <p>
+            <label for="comentarios"><font color="#4A235A">Dirección de envío o notas adicionales:</font></label><br>
+            <textarea id="comentarios" name="comentarios" rows="4" cols="40"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Realizar Pedido">
+        </p>
+    </form>
+
+    <footer>
+        <p><font color="#512E5F">Quiñones Rios Iris Marina 5°J - MÓDULO IPHONE</font></p>
+    </footer>
+
+</body>
+</html>
